@@ -99,8 +99,10 @@ app.get("/articles/:id", function (req, res) {
 //     });
 
 //     console.log(results);
-// });
+//     console.log(results);
 
+// });
+// 
 app.listen(PORT, function () {
     console.log("App running on port " + PORT + "!");
 });
